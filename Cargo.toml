@@ -1,0 +1,10 @@
+[package]
+name = "batch-recv"
+version = "0.1.0"
+authors = ["KOBA789 <kobahide789@gmail.com>"]
+
+[features]
+crossbeam = ["crossbeam-channel"]
+
+[dependencies]
+crossbeam-channel = { version = "0.1", optional = true }
