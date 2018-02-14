@@ -2,6 +2,12 @@
 name = "batch-recv"
 version = "0.1.0"
 authors = ["KOBA789 <kobahide789@gmail.com>"]
+description = "This crate provides batched receiving methods to queues."
+license = "MIT"
+license-file = "LICENSE"
+documentation = "https://docs.rs/batch-recv"
+repository = "https://github.com/KOBA789/batch-recv-rs"
+readme = "README.md"
 
 [features]
 crossbeam = ["crossbeam-channel"]
